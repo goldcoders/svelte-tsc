@@ -1,8 +1,8 @@
 # Svelte Starter App
 
-## Stacks
-- Typescript
-- Svelte
-- Tailwind CSS
+## Features
+
+- Svelte with Typescript Support
+- Tailwind CSS with PurgeCSS
 - Parcel Bundler
-- Tauri (Optional)
+- Tauri (Optional) for Desktop Apps
