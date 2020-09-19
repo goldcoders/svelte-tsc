@@ -1,6 +1,8 @@
 {
-  "name": "Svelte Typescript Tailwindui with Parcel Bundler",
+  "name": "svelte-tsc",
   "version": "1.0.0",
+  "repository": "git@github.com:goldcoders/svelte-tsc.git",
+  "author": "Goldcoders <goldcoders@protonmail.com>",
   "license": "MIT",
   "browserslist": [
     "last 1 chrome versions"
@@ -9,13 +11,13 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.6",
+    "postcss": "^8.0.5",
     "svelte": "^3.25.1",
     "svelte-preprocess": "^4.3.0",
-    "postcss": "^8.0.5",
-    "tailwindcss": "^1.8.10",
-    "@tailwindcss/ui": "^0.6.2"
+    "tailwindcss": "^1.8.10"
   }
 }
