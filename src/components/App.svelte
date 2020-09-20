@@ -3,6 +3,12 @@
 
   export let appName: string = 'Starter App';
 
+  import Foo from './foo';
+
+  const foo: Foo = {
+    name: 'foo',
+  };
+
   const name: string = 'Svelte, Typescript , Tailwind';
 </script>
 
@@ -22,7 +28,7 @@
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 leading-9 sm:text-4xl sm:leading-10">
         {appName}
       <br>
-      Using {name}
+      Using {name} , foo load === {foo.name}
       <Hello/>
     </h2>
     <div class="flex justify-center mt-8">
